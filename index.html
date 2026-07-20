@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZIMM NETWORK</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-flex">
+    <div class="logo-area">
+      <img src="img/logo.png" class="logo" alt="Logo">
+      <h1 class="brand-title">ZIMM NETWORK</h1>
+    </div>
+
+    <div class="header-right">
+      <div class="menu-wrapper" id="menuWrapper">
+        <div class="kebab-icon" onclick="toggleMenu(event)">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div id="dropdownMenu" class="dropdown-content">
+          <a href="faq.html">
+            <span class="icon">❓</span> FAQ
+          </a>
+          <a href="https://wa.me/6285119516679">
+            <span class="icon">📞</span> Hubungi Admin
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="img/img1.jpg" alt="Promo 1"></div>
+      <div class="swiper-slide"><img src="img/img2.jpg" alt="Promo 2"></div>
+      <div class="swiper-slide"><img src="img/img3.jpg" alt="Promo 3"></div>
+      <div class="swiper-slide"><img src="img/img4.jpg" alt="Promo 4"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <div class="service-list">
+
+    <!-- Official Service -->
+    <div class="service-card">
+      <div class="service-img-wrapper">
+        <span class="service-badge badge-official">Official Service</span>
+        <img src="img/layanan/zimmkyy.jpg" alt="Zimm x Kyy CPM Website" class="clickable-img">
+      </div>
+      <div class="service-info">
+        <h4>Zimm x Kyy CPM Website</h4>
+        <p>Menyediakan livery, suntik coin/money, dan jasa lainnya dengan harga yang bersahabat.</p>
+        <div class="service-actions">
+          <a href="https://zimmxkyy-store.vercel.app/" target="_blank" class="btn-service">Kunjungi</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Official Service -->
+    <div class="service-card">
+      <div class="service-img-wrapper">
+        <span class="service-badge badge-official">Official Service</span>
+        <img src="img/layanan/mcrekber.jpg" alt="Jasa MC/Rekber Zimm x Kyy" class="clickable-img">
+      </div>
+      <div class="service-info">
+        <h4>Jasa MC/Rekber Zimm x Kyy</h4>
+        <p>Layanan yang membantu transaksi agar lebih aman, nyaman, dan bebas worry.</p>
+        <div class="service-actions">
+          <a href="https://wa.me/6281933682502" target="_blank" class="btn-service">MC Admin Kyy</a>
+          <a href="https://wa.me/6285119516679" target="_blank" class="btn-service">MC Admin Zimm</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Partner -->
+    <div class="service-card">
+      <div class="service-img-wrapper">
+        <span class="service-badge badge-partner">Partner</span>
+        <img src="img/layanan/oconk.jpg" alt="Oconk Store" class="clickable-img">
+      </div>
+      <div class="service-info">
+        <h4>Oconk Store</h4>
+        <p>Menyediakan berbagai stok livery yang menarik dan harga yang bersahabat.</p>
+        <div class="service-actions">
+          <a href="https://oconkk-store.vercel.app/" target="_blank" class="btn-service">Kunjungi</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<div id="imageOverlay" class="overlay">
+  <img id="zoomedImage" src="" alt="Zoomed">
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+<footer class="main-footer">
+  <div class="container">
+    <h2 class="brand-title footer-logo">ZIMM NETWORK</h2>
+    <p class="tagline">Pusat penghubung ke seluruh layanan resmi dan mitra terpercaya Zimm x Kyy:</p>
+
+    <ul class="footer-services">
+      <li>1. Layanan Resmi (Official Service)</li>
+      <li>2. Jasa MC/Rekber Transaksi</li>
+      <li>3. Mitra & Partner Terpercaya</li>
+    </ul>
+
+    <div class="footer-meta">
+      <div class="meta-item">
+        <span class="meta-label">Jam Operasional:</span>
+        <span class="meta-value">Siang - Malam</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Status Mitra:</span>
+        <span class="meta-value">Terverifikasi & Terpercaya</span>
+      </div>
+    </div>
+
+    <p class="motto">Menghubungkanmu ke layanan dan mitra terbaik dalam satu tempat.</p>
+
+    <hr class="footer-divider">
+    <p class="copyright">&copy; 2026 Zimm Network. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
