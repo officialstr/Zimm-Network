@@ -4,8 +4,6 @@ window.onload = function() {
       slidesPerView: 1, 
       spaceBetween: 20,
       loop: true,
-      centeredSlides: true,
-      loopedSlides: 4, 
       loopPreventsSliding: false, 
       autoplay: {
         delay: 4000,

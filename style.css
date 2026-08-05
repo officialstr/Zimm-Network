@@ -42,9 +42,8 @@ body {
 
 .swiper-pagination-bullet-active { 
   background: var(--primary) !important; 
-  width: 25px !important; 
-  border-radius: 5px !important; 
-  box-shadow: 0 0 10px rgba(31, 81, 255, 0.6);
+  border-radius: 50% !important;
+  box-shadow: 0 0 8px 3px rgba(31, 81, 255, 0.85);
 }
 
 .overlay {
